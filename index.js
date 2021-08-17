@@ -12,7 +12,7 @@ function no() {
 }
 
 function si() {
-   document.getElementById("yes").style.top = "0px";
+   document.getElementById("yes").style.top = "45vh";
    document.getElementById("shadow").style.width = "100%";
    document.getElementById("video").play();
    setTimeout(function() {
