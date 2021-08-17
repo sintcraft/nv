@@ -1,12 +1,11 @@
 function no() {
    let elem = document.getElementById("no");
    let newCords = randomizerCords(resolveCords(elem));
-   console.log(window.innerHeight/7, window.innerWidth/10, newCords.x, newCords.y);
-   if(newCords.x > window.innerWidth - window.innerWidth/10){
-      newCords.x = newCords.x - window.innerWidth/11;
+   if(newCords.x > window.innerWidth - window.innerWidth/11){
+      newCords.x = newCords.x - window.innerWidth/12;
    }
-   if(newCords.y > window.innerHeight - window.innerHeight/10){
-      newCords.y = newCords.y - window.innerHeight/11;
+   if(newCords.y > window.innerHeight - window.innerHeight/11){
+      newCords.y = newCords.y - window.innerHeight/12;
    }
    setCords(elem, newCords);
 }
