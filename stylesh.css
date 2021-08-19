@@ -6,7 +6,7 @@
 }
 .respuesta {
    background: #fff;
-   color: #ffaaff;
+   color: #aaaaff;
    font-family: sans-serif;
    border: none;
    font-size: 2em;
@@ -18,7 +18,7 @@
 }
 
 .respuesta:hover {
-   background: #dd88dd;
+   background: #7777ff;
    color: #fff;
 }
 
@@ -61,7 +61,7 @@
 }
 
 body {
-   background: linear-gradient(90deg, #ffaaff, #aaaaff);
+   background: linear-gradient(90deg, #aaaaff, #ddddff);
 }
 
 video {
